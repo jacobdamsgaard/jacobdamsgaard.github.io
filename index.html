@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Jacob Folmer Damsgård — cand.merc.jur.-studerende med erfaring fra finansiel statistik og juridisk sagsbehandling."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Jacob Folmer Damsgård — About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="about-content.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="about">
+    <a class="skip-link" href="#indhold">Gå til indhold</a>
+    <header class="topbar">
+      <a class="wordmark" href="./" aria-label="Jacob Folmer Damsgård, til toppen">Jacob Folmer Damsgård</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="menu-toggle-lines" aria-hidden="true"></span>
+        <span class="sr-only">Åbn navigation</span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Hovednavigation">
+          <a class="is-current" aria-current="page" href="./">Om mig</a>
+          <a href="cv/">CV</a>
+          <a href="experience/">Erfaring</a>
+          <a href="education/">Uddannelse</a>
+        <a class="nav-linkedin" href="https://www.linkedin.com/in/jacob-folmer-damsg%C3%A5rd-960692263/" target="_blank" rel="noreferrer" aria-label="LinkedIn, åbner i en ny fane">in</a>
+      </nav>
+      <span class="nav-spacer" aria-hidden="true"></span>
+    </header>
+
+    <main id="indhold">
+      <section class="about-hero" id="top" aria-labelledby="hero-title">
+        <div class="about-intro">
+          <p class="eyebrow" id="about-eyebrow"></p>
+          <h1 id="hero-title"></h1>
+          <p class="about-role" id="about-role"></p>
+          <p class="about-description" id="about-introduction"></p>
+          <ul class="about-contact" id="about-contact" aria-label="Kontaktoplysninger"></ul>
+        </div>
+        <aside class="about-portrait">
+          <img src="cv%20billede.png" alt="Portræt af Jacob Folmer Damsgård" />
+        </aside>
+      </section>
+
+      <section class="about-personal" aria-labelledby="about-personal-title">
+        <div class="about-personal-inner">
+          <div>
+            <p class="about-personal-kicker">LIDT MERE OM MIG</p>
+            <h2 id="about-personal-title">Nysgerrig på<br />verden omkring mig.</h2>
+          </div>
+          <div class="about-personal-copy">
+            <p id="about-personal-introduction"></p>
+            <p id="about-residence"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-legal-interest" aria-labelledby="about-legal-interest-title">
+        <div class="about-legal-interest-inner">
+          <div>
+            <p class="about-personal-kicker">FAGLIG MOTIVATION</p>
+            <h2 id="about-legal-interest-title">Min motivation<br />for jura.</h2>
+          </div>
+          <p id="about-legal-motivation"></p>
+        </div>
+      </section>
+
+      <section class="about-skills" aria-labelledby="about-skills-title">
+        <div class="about-band-inner">
+          <h2 id="about-skills-title">FAGLIGE KOMPETENCER</h2>
+          <div class="about-skill-tags" id="about-skills"></div>
+        </div>
+      </section>
+
+      <section class="about-languages" aria-labelledby="about-languages-title">
+        <h2 id="about-languages-title">SPROG</h2>
+        <div class="language-cards" id="about-languages"></div>
+      </section>
+
+      <section class="about-explore" aria-labelledby="explore-title">
+        <h2 id="explore-title">UDFORSK</h2>
+        <div class="explore-links">
+          <a href="cv/"><span>CV</span><strong>Se mit CV</strong><span aria-hidden="true">↗</span></a>
+          <a href="experience/"><span>ERFARING</span><strong>Min erhvervserfaring</strong><span aria-hidden="true">↗</span></a>
+          <a href="education/"><span>UDDANNELSE</span><strong>Min uddannelse</strong><span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="section profile-section" id="cv" aria-labelledby="profile-title">
+        <div class="section-head">
+          <p class="section-kicker">01 / Kort om mig</p>
+          <h2 id="profile-title">Et analytisk blik.<br /><span>En juridisk retning.</span></h2>
+        </div>
+        <div class="profile-content">
+          <p class="profile-intro">
+            Min interesse for jura voksede frem under HA almen på CBS. På fjerde
+            semester blev jeg særligt optaget af de juridiske fag, valgte jura i
+            mine efterfølgende valgfag og fortsatte på cand.merc.jur.
+          </p>
+          <p>
+            I Danmarks Nationalbank arbejder jeg med finansiel statistik på
+            værdipapirområdet. Det er spændende og lærerigt, og nu vil jeg gerne
+            bringe min juridiske uddannelse mere direkte i spil. Jeg trives med at
+            sætte mig ind i komplekse emner og finde ud af, hvordan de hænger sammen.
+          </p>
+          <div class="profile-facts">
+            <div><span class="fact-number">01</span><span>Økonomi<br />og finans</span></div>
+            <div><span class="fact-number">02</span><span>Data<br />og kodning</span></div>
+            <div><span class="fact-number">03</span><span>Jura<br />i udvikling</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="erfaring" aria-labelledby="experience-title">
+        <div class="section-heading-row">
+          <div class="section-head">
+            <p class="section-kicker">02 / Arbejdsliv</p>
+            <h2 id="experience-title">Erfaring</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filtrer erfaring">
+            <button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">Alle</button>
+            <button type="button" class="filter-button" data-filter="juridisk" aria-pressed="false">Juridisk</button>
+            <button type="button" class="filter-button" data-filter="andet" aria-pressed="false">Øvrig</button>
+          </div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item" data-category="andet">
+            <div class="timeline-date"><span class="timeline-dot"></span><span>SEP 2024 — NU</span></div>
+            <div class="timeline-card">
+              <div class="timeline-card-top"><span class="type-label">Finansiel statistik</span><span class="card-index">01</span></div>
+              <h3>Danmarks Nationalbank</h3>
+              <p class="role">Værdipapirområdet</p>
+              <p>Arbejder med finansiel statistik på værdipapirområdet i et fagligt miljø, hvor præcision og analytisk sans er vigtig.</p>
+              <details>
+                <summary>Vis refleksion</summary>
+                <p>Arbejdet har givet mig et stærkt indblik i finansielle forhold og bekræftet min lyst til at kombinere økonomi med jura.</p>
+              </details>
+              <div class="tag-row"><span>Finans</span><span>Statistik</span><span>Data</span></div>
+            </div>
+          </article>
+          <article class="timeline-item" data-category="juridisk">
+            <div class="timeline-date"><span class="timeline-dot"></span><span>FEB 2023 — MAJ 2024</span></div>
+            <div class="timeline-card">
+              <div class="timeline-card-top"><span class="type-label type-legal">Juridisk arbejde</span><span class="card-index">02</span></div>
+              <h3>Fyhjælp</h3>
+              <p class="role">Juridisk sagsbehandler</p>
+              <p>Assisterede med juridiske procedurer, blandt andet i forbindelse med at sende stævninger til retten.</p>
+              <details>
+                <summary>Vis refleksion</summary>
+                <p>Erfaringen gav mig mulighed for at arbejde tæt på juridiske processer og styrkede min interesse for jura i praksis.</p>
+              </details>
+              <div class="tag-row"><span>Sagsbehandling</span><span>Juridiske processer</span></div>
+            </div>
+          </article>
+          <article class="timeline-item" data-category="andet">
+            <div class="timeline-date"><span class="timeline-dot"></span><span>DEC 2021 — MAR 2022</span></div>
+            <div class="timeline-card">
+              <div class="timeline-card-top"><span class="type-label">Sundhed</span><span class="card-index">03</span></div>
+              <h3>Region Hovedstaden</h3>
+              <p class="role">PCR-podning</p>
+              <p>Hjalp med at udføre PCR-podning.</p>
+              <div class="tag-row"><span>Service</span><span>Sundhed</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section education-section" id="uddannelse" aria-labelledby="education-title">
+        <div class="section-head">
+          <p class="section-kicker">03 / Faglig udvikling</p>
+          <h2 id="education-title">Uddannelse</h2>
+        </div>
+        <div class="education-list">
+          <article class="education-item education-current">
+            <div class="education-year">2026 — NU</div>
+            <div><p class="education-place">Copenhagen Business School</p><h3>Cand.merc.jur.</h3><p>Begyndte 1. september 2026. En kombination af erhvervsøkonomi og jura, der passer til min interesse for begge fagområder.</p></div>
+            <span class="education-status">I GANG</span>
+          </article>
+          <article class="education-item">
+            <div class="education-year">FRA AUGUST 2023</div>
+            <div><p class="education-place">Copenhagen Business School</p><h3>HA almen</h3><p>Bachelor i erhvervsøkonomi. Interessen for jura opstod på fjerde semester, hvorefter jeg valgte juridiske fag som valgfag.</p></div>
+            <span class="education-status status-complete">BACHELOR</span>
+          </article>
+          <article class="education-item">
+            <div class="education-year">2018 — 2021</div>
+            <div><p class="education-place">Aurehøj Gymnasium</p><h3>STX</h3><p>Studieretning med Matematik A og Musik A.</p></div>
+            <span class="education-status status-complete">AFSLUTTET</span>
+          </article>
+          <details class="earlier-education">
+            <summary>Vis tidligere skolegang og ophold</summary>
+            <div class="earlier-grid">
+              <p><strong>Gerlev Idrætshøjskole</strong><br />August — december 2022<br />Udendørs træning, klatring, kajakroning, mountainbike og CrossFit.</p>
+              <p><strong>To måneders tur til Sydamerika</strong><br />Marts — maj 2022<br />Backpacking i Argentina, Brasilien og Uruguay.</p>
+              <p><strong>Tølløse Slots Efterskole</strong><br />August 2017 — august 2018</p>
+              <p><strong>Birkerød Privatskole</strong><br />August 2007 — august 2017</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="kompetencer" aria-labelledby="skills-title">
+        <div class="section-head">
+          <p class="section-kicker">04 / Værktøjer og interesser</p>
+          <h2 id="skills-title">Kompetencer<br /><span>og nysgerrighed</span></h2>
+        </div>
+        <div class="skills-content">
+          <div class="skill-block"><h3>Data og værktøjer</h3><p>Jeg har omkring to års erfaring med kodning og databehandling i Python, R, SQL og Excel. Jeg arbejder løbende med at optimere arbejdsgange og effektivisere opgaver, blandt andet ved at bruge AI som et værktøj. Jeg har også erfaring med Office-pakken og sætter mig hurtigt ind i nye systemer.</p><div class="skill-tags"><span>Python</span><span>R</span><span>SQL</span><span>Excel</span><span>AI til optimering</span></div></div>
+          <div class="skill-block"><h3>Sprog</h3><dl class="language-list"><div><dt>Dansk</dt><dd>Modersmål</dd></div><div><dt>Engelsk</dt><dd>Flydende</dd></div></dl></div>
+          <div class="skill-block"><h3>Uden for arbejdet</h3><p>Brasiliansk jiu-jitsu, tennis og CrossFit. Jeg holder også af vinterbadning, vandreture og camping, og deler gerne et godt glas vin med venner.</p><div class="skill-tags"><span>Brasiliansk jiu-jitsu</span><span>Tennis</span><span>Friluftsliv</span></div></div>
+        </div>
+      </section>
+
+      <section class="contact-section" aria-labelledby="contact-title">
+        <div class="contact-inner">
+          <p class="section-kicker">Skal vi tale sammen?</p>
+          <h2 id="contact-title">Jeg er klar til<br />at lære mere.</h2>
+          <a class="button button-light" href="mailto:jacob.damsgard@gmail.com">Send mig en mail <span aria-hidden="true">↗</span></a>
+          <div class="contact-details">
+            <a href="mailto:jacob.damsgard@gmail.com">jacob.damsgard@gmail.com</a>
+            <a href="tel:+4540383070">+45 40 38 30 70</a>
+            <a href="https://www.linkedin.com/in/jacob-folmer-damsg%C3%A5rd-960692263/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="footer-name" href="./">Jacob Folmer Damsgård</a><div class="footer-contact"><a href="mailto:jacob.damsgard@gmail.com">E-mail</a><a href="tel:+4540383070">Telefon</a><a href="https://www.linkedin.com/in/jacob-folmer-damsg%C3%A5rd-960692263/" target="_blank" rel="noreferrer">LinkedIn</a></div><span>Frederiksberg · København, Danmark</span><span>© <span id="current-year">2026</span></span></footer>
+  </body>
+</html>
