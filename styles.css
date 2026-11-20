@@ -160,7 +160,7 @@ details[open] summary::after { content: "−"; }
 .main-nav a:focus-visible { outline: 2px solid #315cff; outline-offset: 2px; }
 .main-nav a.is-current { background: #f0f3ff; }
 .main-nav a.is-current::after { display: none; }
-.main-nav .nav-linkedin { display: inline-grid; width: 25px; height: 25px; place-items: center; padding: 0; border-radius: 3px; background: #0a66c2; color: #fff; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; line-height: 1; }
+.main-nav .nav-linkedin { display: inline-grid; width: 34px; height: 34px; place-items: center; padding: 0; border-radius: 3px; background: #405de6; color: #fff; font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 1; }
 .main-nav .nav-linkedin:hover, .main-nav .nav-linkedin:focus-visible { background: #004182; color: #fff; }
 .main-nav .nav-linkedin span { transform: translateY(1px); letter-spacing: -1px; }
 .nav-spacer { width: 0; }
