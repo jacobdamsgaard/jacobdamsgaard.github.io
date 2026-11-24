@@ -160,7 +160,7 @@ details[open] summary::after { content: "−"; }
 .main-nav a:focus-visible { outline: 2px solid #315cff; outline-offset: 2px; }
 .main-nav a.is-current { background: #f0f3ff; }
 .main-nav a.is-current::after { display: none; }
-.main-nav .nav-linkedin { display: block; width: 28px; height: 28px; padding: 0; border-radius: 4px; background: #3b66bd url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 34'%3E%3Crect width='34' height='34' rx='2.5' fill='%233b66bd'/%3E%3Ccircle cx='7.5' cy='7.5' r='3' fill='%23fff'/%3E%3Cpath d='M4 14h6v19H4zm10 0h6v2.6c1.2-2 3.3-3.1 6-3.1 5.3 0 7.3 3.5 7.3 8.8V33h-6.2v-9.2c0-2.9-.3-4.9-3.3-4.9-3.2 0-3.8 2.4-3.8 4.8V33H14z' fill='%23fff'/%3E%3C/svg%3E") center / contain no-repeat; color: transparent; font-size: 0; }
+.main-nav .nav-linkedin { display: block; width: 20px; height: 20px; padding: 0; border-radius: 4px; background: #3b66bd url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 34'%3E%3Crect width='34' height='34' rx='2.5' fill='%233b66bd'/%3E%3Ccircle cx='7.5' cy='7.5' r='3' fill='%23fff'/%3E%3Cpath d='M4 14h6v19H4zm10 0h6v2.6c1.2-2 3.3-3.1 6-3.1 5.3 0 7.3 3.5 7.3 8.8V33h-6.2v-9.2c0-2.9-.3-4.9-3.3-4.9-3.2 0-3.8 2.4-3.8 4.8V33H14z' fill='%23fff'/%3E%3C/svg%3E") center / contain no-repeat; color: transparent; font-size: 0; }
 .main-nav .nav-linkedin:hover, .main-nav .nav-linkedin:focus-visible { background-color: #004182; filter: brightness(.9); }
 .nav-spacer { width: 0; }
 
@@ -358,7 +358,7 @@ body[data-page="about"] .contact-section { display: none; }
   .main-nav.is-open { display: flex; flex-direction: column; }
   .main-nav a { padding: 11px 0; border-bottom: 1px solid rgba(29, 41, 37, .08); }
   .main-nav a.is-current::after { right: auto; width: 25px; }
-  .main-nav .nav-linkedin { align-self: flex-start; width: 28px; height: 28px; margin-top: 9px; padding: 0; border-bottom: 0; }
+  .main-nav .nav-linkedin { align-self: flex-start; width: 20px; height: 20px; margin-top: 9px; padding: 0; border-bottom: 0; }
   .contact-link { font-size: 0; }
   .contact-dot { width: 9px; height: 9px; }
   .hero { grid-template-columns: 145px minmax(0, 1fr); gap: 28px; min-height: 580px; padding: 70px 28px 82px; }
