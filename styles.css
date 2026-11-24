@@ -273,6 +273,12 @@ body[data-page="about"] .contact-section { display: none; }
 
 .cv-page { padding: 32px 0 48px; }
 .page-title-row { display: flex; justify-content: space-between; align-items: end; gap: 20px; margin-bottom: 22px; }
+.cv-title-actions { display: flex; align-items: center; gap: 10px; }
+.cv-portfolio-link { display: grid; gap: 2px; padding: 7px 10px; border-left: 3px solid #315cff; background: #f6f8fc; }
+.cv-portfolio-link span { color: #64728a; font-family: var(--mono); font-size: 7px; }
+.cv-portfolio-link strong { color: #315cff; font-size: 10px; }
+.cv-portfolio-qr { display: block; width: 54px; height: 54px; padding: 3px; border: 1px solid #e4e8ef; background: #fff; }
+.cv-portfolio-qr img { display: block; width: 100%; height: 100%; }
 .page-title-row h1 { margin-bottom: 0; font-size: 34px; }
 .download-button { display: inline-flex; align-items: center; gap: 9px; min-height: 36px; padding: 0 13px; border: 0; border-radius: 4px; background: #315cff; color: #fff; cursor: pointer; font-size: 10px; font-weight: 700; }
 .download-button:hover { background: #294bd0; }
@@ -315,6 +321,7 @@ body[data-page="about"] .contact-section { display: none; }
   .footer-contact { order: 4; width: 100%; }
   .cv-page { padding-top: 25px; }
   .page-title-row { align-items: start; flex-direction: column; }
+  .cv-title-actions { flex-wrap: wrap; }
   .cv-layout { grid-template-columns: 1fr; gap: 22px; }
   .cv-sidebar { display: grid; grid-template-columns: 92px 1fr; gap: 0 15px; }
   .cv-photo { grid-row: span 3; width: 92px; aspect-ratio: 1; margin: 0; }
@@ -329,6 +336,11 @@ body[data-page="about"] .contact-section { display: none; }
   .topbar, .footer, .download-button, .skip-link, .cv-section-title a { display: none !important; }
   .cv-page { width: 100%; max-width: none; padding: 0; }
   .page-title-row { margin-bottom: 12px; }
+  .cv-title-actions { gap: 6px; }
+  .cv-portfolio-link { padding: 5px 7px; }
+  .cv-portfolio-link span { font-size: 6pt; }
+  .cv-portfolio-link strong { font-size: 8pt; }
+  .cv-portfolio-qr { width: 48px; height: 48px; }
   .page-title-row h1 { font-size: 22pt; }
   .cv-layout { grid-template-columns: 185px 1fr; gap: 20px; }
   .cv-sidebar { padding: 12px; background: #f4f6fa !important; print-color-adjust: exact; }
